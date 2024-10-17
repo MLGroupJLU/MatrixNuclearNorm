@@ -1,11 +1,11 @@
 # Large Language Model Evaluation via Matrix Nuclear Norm
-
-<p align="center">
+🤗 <a href="" target="[_blank](https://huggingface.co/papers/2410.10672)">Hugging Face</a> • 📃 <a href="[https://arxiv.org/abs/2409.15762](https://arxiv.org/pdf/2410.10672)" target="_blank">Paper</a>
+<p align="left">
     <a href=''>
-        <img src='https://img.shields.io/badge/Project-Link-Green'>
+        <img src='[https://img.shields.io/badge/Project-Link-Green](https://arxiv.org/pdf/2410.10672)'>
     </a>    
     <a href="">
-        <img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper">
+        <img src="[https://img.shields.io/badge/Paper-Arxiv-red](https://arxiv.org/pdf/2410.10672)" alt="Paper">
     </a>
 </p>
 
