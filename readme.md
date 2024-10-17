@@ -107,5 +107,10 @@ python ./path/Experiment-mnn/code/compute_score.py
 If you are utilizing Matrix Nuclear norm in your research or applications, please reference it using the following BibTeX entry:
 
 ```
-
+@article{li2024large,
+  title={Large Language Model Evaluation via Matrix Nuclear-Norm},
+  author={Li, Yahan and Xia, Tingyu and Chang, Yi and Wu, Yuan},
+  journal={arXiv preprint arXiv:2410.10672},
+  year={2024}
+}
 ```
