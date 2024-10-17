@@ -4,15 +4,7 @@
     🤗 <a href="https://huggingface.co/papers/2410.10672" target="_blank">Hugging Face</a> • ⏬ <a href="#Datasets" target="_blank">Data</a> •  📃 <a href="https://arxiv.org/pdf/2410.10672" target="_blank">Paper</a>
     
 </p>
-<p> </p>
-<p>
-    <a href='https://arxiv.org/pdf/2410.10672'>
-        <img src='https://img.shields.io/badge/Project-Link-Green'>
-    </a>    
-    <a href="">
-        <img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper">
-    </a>
-</p>
+
 ## Introduction
 
 As large language models (LLMs) continue to evolve, efficient evaluation metrics are vital for assessing their ability to compress information and reduce redundancy. While traditional metrics like Matrix Entropy offer valuable insights, they are computationally intensive for large-scale models due to their \( O(n^3) \) time complexity with Singular Value Decomposition (SVD). To mitigate this issue, we introduce the Matrix Nuclear-Norm, which not only serves as a metric to quantify the data compression proficiency of LLM but also provides a convex approximation of matrix rank to capture both predictive discriminability and diversity. By employing the \( L_{1,2}\text{-norm} \) to further approximate the nuclear norm, we can effectively assess the model's information compression capabilities. This approach reduces the time complexity to \( O(n^2) \) and eliminates the need for SVD computation. Consequently, the Matrix Nuclear-Norm achieves speeds 8 to 24 times faster than Matrix Entropy for the CEREBRAS-GPT model as sizes increase from 111M to 6.7B. This performance gap becomes more pronounced with larger models, as validated in tests with other models like Pythia. Additionally, evaluations on benchmarks and model responses confirm that our proposed Matrix Nuclear-Norm is a reliable, scalable, and efficient tool for assessing LLMs' performance, striking a balance between accuracy and computational efficiency.
@@ -102,7 +94,14 @@ Finally, to compute the scores, run the Python script as follows:
 ```python
 python ./path/Experiment-mnn/code/compute_score.py
 ```
-
+<p>
+    <a href='https://arxiv.org/pdf/2410.10672'>
+        <img src='https://img.shields.io/badge/Project-Link-Green'>
+    </a>    
+    <a href="">
+        <img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper">
+    </a>
+</p>
 ## Citation
 
 If you are utilizing Matrix Nuclear norm in your research or applications, please reference it using the following BibTeX entry:
