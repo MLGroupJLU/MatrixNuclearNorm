@@ -94,14 +94,13 @@ Finally, to compute the scores, run the Python script as follows:
 ```python
 python ./path/Experiment-mnn/code/compute_score.py
 ```
-<p>
+
     <a href='https://arxiv.org/pdf/2410.10672'>
         <img src='https://img.shields.io/badge/Project-Link-Green'>
     </a>    
     <a href="">
         <img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper">
     </a>
-</p>
 ## Citation
 
 If you are utilizing Matrix Nuclear norm in your research or applications, please reference it using the following BibTeX entry:
