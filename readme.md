@@ -96,9 +96,9 @@ python ./path/Experiment-mnn/code/compute_score.py
 ```
 <p>
     <a href='https://arxiv.org/pdf/2410.10672'>
-        <img src='https://img.shields.io/badge/Project-Link-Green'>
+        <img src='https://img.shields.io/badge/Project-Link-Green' alt="Project">
     </a>    
-    <a href="">
+    <a href="https://arxiv.org/pdf/2410.10672">
         <img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper">
     </a>
 </p>    
